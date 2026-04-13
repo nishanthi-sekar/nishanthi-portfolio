@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nishanthi Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light">
+
+<header>
+    <h2 class="logo">Nishanthi S</h2>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#coreskills">Core skills</a>
+        <a href="#languages">Languages</a>
+        <a href="#internship">Internship</a>
+        <a href="#certificates">certificates</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="right">
+        <input type="text" id="search" placeholder="Search...">
+        <button id="toggle">🌙</button>
+    </div>
+</header>
+
+<!-- HOME -->
+<section id="home" class="hero">
+    <img src="profile.jpg" class="profile" >
+    <h1>Hi, I'm Nishanthi 👋</h1>
+    <p>Frontend Developer | IT Student</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+    I have a good foundation in front-end technologies such as HTML, CSS, and JavaScript, and I enjoy 
+    building creative web pages using these skills. I continuously work on improving my knowledge by 
+    practicing projects and exploring new design ideas. I also have basic knowledge of tools like Canva, 
+    MS Word, and MS Excel which support my creativity and productivity.
+    </p>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skill">HTML<div class="bar"><div style="width:90%"></div></div></div>
+    <div class="skill">CSS<div class="bar"><div style="width:85%"></div></div></div>
+    <div class="skill">JavaScript<div class="bar"><div style="width:75%"></div></div></div>
+    <div class="skill">MS Word<div class="bar"><div style="width:80%"></div></div></div>
+    <div class="skill">Canva<div class="bar"><div style="width:85%"></div></div></div>
+
+</section>
+
+<section id="core">
+    <h2>Core Skills</h2>
+
+    <div class="core-container">
+        <div class="core-card">✔ Quick Learner</div>
+        <div class="core-card">✔ Time Management</div>
+        <div class="core-card">✔ Positive Attitude</div>
+        <div class="core-card">✔ Self Confidence</div>
+        <div class="core-card">✔ Hardworking</div>
+        <div class="core-card">✔ Communication Skills</div>
+        <div class="core-card">✔ Teamwork</div>
+        <div class="core-card">✔ Problem Solving</div>
+    </div>
+
+</section>
+
+<!-- LANGUAGES -->
+<section id="languages">
+    <h2>Known Languages</h2>
+    <ul>
+        <li>Tamil</li>
+        <li>English</li>
+    </ul>
+</section>
+
+<section id="internship">
+    <h2>Internship</h2>
+
+    <div class="intern-container">
+
+        <div class="intern-card">
+            <h3>QMOS Technologies</h3>
+            <p><b>Role:</b> AIML Intern</p>
+            <p><b>Duration:</b> 15 Days</p>
+            <p>
+            Learned basic concepts of Artificial Intelligence and Machine Learning. 
+            Gained knowledge about real-time applications and project development.
+            </p>
+        </div>
+
+        <div class="intern-card">
+            <h3>TVK Technologies</h3>
+            <p><b>Role:</b> Full Stack Intern</p>
+            <p><b>Duration:</b> 1 Month</p>
+            <p>
+            Worked on web development basics including HTML, CSS, and JavaScript. 
+            Understood frontend and backend integration concepts.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates">
+    <h2>Internship Certificates</h2>
+
+    <div class="cert-card">
+        <img src="qmos.jpg">
+        <p>QMOS Technologies</p>
+    </div>
+
+    <div class="cert-card">
+        <img src="tvk.jpg.jpeg">
+        <p>TVK Technologies</p>
+    </div>
+
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <h3>ASD Disease Prediction</h3>
+            <p>
+            Developed a machine learning model to predict Autism Spectrum Disorder (ASD) 
+            using patient data. Focused on data preprocessing, model training, and accuracy improvement.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>CGI Based Synthetic Data Generation</h3>
+            <p>
+            Created synthetic datasets using CGI techniques to improve training data quality. 
+            Useful for machine learning models where real data is limited.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Detection Pipeline for Small Objects in Aerial Imagery</h3>
+            <p>
+            Built an object detection pipeline to identify small objects in aerial images 
+            using computer vision techniques and deep learning models.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+            Designed and developed a responsive portfolio using HTML, CSS, and JavaScript 
+            with dark/light mode and interactive UI.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>📞 9342044060</p>
+    <p>📧 nishathin3@gmail.com</p>
+</section>
+<!-- FULL SCREEN IMAGE VIEW -->
+<div id="imgModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="fullImg">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
